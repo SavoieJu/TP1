@@ -1,0 +1,11 @@
+header {
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+
+    span {
+        padding-right: 2vw;
+        align-self: center;
+    }
+}
