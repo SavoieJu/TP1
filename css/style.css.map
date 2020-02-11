@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA;;EAEE",
+    "mappings": "AAAA;;EAEE;AAEF;;EAEE;AAEF;;EAEE;AAEF;;EAEE;AAEF;;EAEE;AAEF;;EAEE;AAEF;;EAEE;AAEF;;EAEE;AAEF;;EAEE",
     "sources": [
         "../sass/style.scss"
     ],
