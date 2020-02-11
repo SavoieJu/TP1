@@ -5,42 +5,42 @@
 /*
     ## Variables
 */
-@import '/variables/_variables.scss';
+// @import '/variables/_variables.scss';
 
 /*
     ## Mixins
 */
-@import '/mixins/_.scss';
+// @import './mixins/_.scss';
 
 /*
     ## Layout
 */
-@import '/layout/_entete.scss';
-@import '/layout/_navigation.scss';
-@import '/layout/_main.scss';
-@import '/layout/_pied-page.scss';
+@import './layout/_entete.scss';
+@import './layout/_navigation.scss';
+// @import './layout/_main.scss';
+// @import './layout/_pied-page.scss';
 
 /*
     ## Entete
 */
-@import '/entete/_.scss';
+// @import './entete/_.scss';
 
 /*
     ## Navigation
 */
-@import '/navigation/_.scss';
+// @import './navigation/_.scss';
 
 /*
     ## Typography
 */
-@import '/typography/_.scss';
+@import './typography/_typo.scss';
 
 /*
     ## Pied-Page
 */
-@import '/pied-page/_.scss';
+// @import './pied-page/_.scss';
 
 /*
     ## Elements
 */
-@import '/elements/_.scss';
+// @import './elements/_.scss';

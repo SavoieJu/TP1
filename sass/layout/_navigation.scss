@@ -1,0 +1,61 @@
+nav {
+    label {
+        position: absolute;
+        // font-size: 3em;
+        i {
+            transition: transform 0.2s;
+        }
+    }
+
+    input {
+        display: none;
+        // position: absolute;
+        &:checked ~ .title_bar {
+            margin-top: 0px;
+        }
+    }
+
+    .menu_container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        h1 {
+            margin: 0;
+            line-height: 70px;
+        }
+
+    }
+
+    .title_bar {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: -380px;
+        z-index: -123;
+        transition: margin-top 0.5s;
+
+        .menuOption {
+            align-self: center;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+
+        }
+
+        .menuOption6 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 70%;
+
+            &:hover {
+                background-color: initial;
+                border-left: none;
+                border-right: none;
+            }
+        }
+
+    }
+}
