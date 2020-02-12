@@ -1,0 +1,27 @@
+nav {
+    background-color: lighten($color: $blue, $amount: 20%);
+
+    .title_bar {
+        background-color: $blue;
+
+        .menuOption {
+            
+            &:hover {
+                border-left: 4px solid $orange;
+                border-right: 4px solid $orange;
+                background-color: lighten($color: $blue, $amount: 5%);
+            }
+        }
+
+        .menuOption6 {
+            border-top: 1px solid lighten($color: $blue, $amount: 40%);
+            color: lighten($color: $blue, $amount: 40%);
+
+            &:hover {
+                border-left: none;
+                border-right: none;
+                background-color: initial;
+            }
+        }
+    }
+}

@@ -2,11 +2,20 @@ body {
     font-family: 'Alata', sans-serif;
 }
 
+header {
+    color: $beige;
+}
+
 nav {
+    color: $beige;
     label {
         #menuListener {
             font-size: 4.3em;
         }
+    }
+
+    .title_bar {
+        color: $beige;
     }
     
 }

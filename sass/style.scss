@@ -5,7 +5,7 @@
 /*
     ## Variables
 */
-// @import '/variables/_variables.scss';
+@import './variables/_variables.scss';
 
 /*
     ## Mixins
@@ -43,4 +43,5 @@
 /*
     ## Elements
 */
-// @import './elements/_.scss';
+@import './elements/_entete.scss';
+@import './elements/_navigation.scss';
