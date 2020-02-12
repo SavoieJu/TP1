@@ -17,7 +17,7 @@
 */
 @import './layout/_entete.scss';
 @import './layout/_navigation.scss';
-// @import './layout/_main.scss';
+@import './layout/_main.scss';
 // @import './layout/_pied-page.scss';
 
 /*
@@ -45,3 +45,8 @@
 */
 @import './elements/_entete.scss';
 @import './elements/_navigation.scss';
+
+/*
+    ## Main
+*/
+@import './layout/_slider.scss';
