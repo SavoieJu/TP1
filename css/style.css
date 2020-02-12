@@ -108,6 +108,22 @@ nav .title_bar .menuOption6:hover {
   border-right: none;
 }
 
+@media screen and (min-width: 860px) {
+  nav label {
+    display: none;
+  }
+  nav .title_bar {
+    margin-top: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  nav .title_bar .menuOption6 {
+    display: none;
+  }
+}
+
 /*
     ## Entete
 */
@@ -170,5 +186,17 @@ nav .title_bar .menuOption6:hover {
   border-left: none;
   border-right: none;
   background-color: initial;
+}
+
+@media screen and (min-width: 860px) {
+  nav .title_bar .menuOption {
+    border-bottom: 4px solid #01204f;
+  }
+  nav .title_bar .menuOption:hover {
+    border-bottom: 4px solid #fc3516;
+    border-left: none;
+    border-right: none;
+    background-color: #012a68;
+  }
 }
 /*# sourceMappingURL=style.css.map */

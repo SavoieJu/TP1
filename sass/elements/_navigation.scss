@@ -25,3 +25,21 @@ nav {
         }
     }
 }
+
+@media screen and (min-width: 860px) {
+    nav {
+        .title_bar {
+
+            .menuOption {
+                border-bottom: 4px solid $blue;
+            
+                &:hover {
+                    border-bottom: 4px solid $orange;
+                    border-left: none;
+                    border-right: none;
+                    background-color: lighten($color: $blue, $amount: 5%);
+                }
+            }
+        }
+    }
+}

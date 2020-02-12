@@ -59,3 +59,25 @@ nav {
 
     }
 }
+
+@media screen and (min-width: 860px) {
+
+    nav {
+
+        label {
+            display: none;
+        }
+
+        .title_bar {
+            // position: relative;
+            margin-top: 0px;
+            flex-direction: row;
+
+            .menuOption6 {
+                display: none;
+            }
+        }
+    }
+
+    
+}
