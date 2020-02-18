@@ -1,5 +1,5 @@
 const configSlider = {
-    largeur : "300px",
+    largeur : "600px",
     hauteur : "300px",
     contenu : [
         {
