@@ -3,7 +3,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10vh 0;
 
     .slider_nav_links {
         position: absolute;
@@ -41,6 +40,7 @@ main {
         scroll-behavior: smooth;
         overflow-x: hidden;
         border: 2px solid $blue;
+        background-color: $teal;
 
         .slide {
             // width: 300px;
