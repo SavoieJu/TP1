@@ -352,6 +352,9 @@ template {
     ## Variables
 */
 /*
+    Desc: Variables
+*/
+/*
     ## Mixins
 */
 /*
@@ -381,6 +384,11 @@ header span {
 /*
     Desc: Layout de la nav
 */
+nav {
+  width: 100vw;
+  overflow: visible;
+}
+
 nav label {
   position: absolute;
 }
@@ -426,7 +434,6 @@ nav .title_bar {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: -380px;
-  z-index: -1;
   -webkit-transition: margin-top 0.5s;
   transition: margin-top 0.5s;
 }
@@ -483,19 +490,23 @@ nav .title_bar .menuOption6:hover {
     Desc: Layout du main
 */
 main {
-  position: absolute;
-  z-index: -1200;
+  z-index: -2;
   width: 100%;
 }
 
 /*
-    ## Entete
+    Desc: Layout du footer
 */
-/*
-    ## Navigation
-*/
+footer {
+  height: 30vh;
+  width: 100%;
+}
+
 /*
     ## Typography
+*/
+/*
+    Desc: Typography
 */
 body {
   font-family: 'Alata', sans-serif;
@@ -517,9 +528,6 @@ nav .title_bar {
   color: #fedbb3;
 }
 
-/*
-    ## Pied-Page
-*/
 /*
     ## Elements
 */
@@ -562,6 +570,13 @@ nav .title_bar .menuOption6:hover {
     border-right: none;
     background-color: #012a68;
   }
+}
+
+/*
+    Desc: styling du footer
+*/
+footer {
+  background-color: #008797;
 }
 
 /*

@@ -23,17 +23,7 @@
 @import './layout/_entete.scss';
 @import './layout/_navigation.scss';
 @import './layout/_main.scss';
-// @import './layout/_pied-page.scss';
-
-/*
-    ## Entete
-*/
-// @import './entete/_.scss';
-
-/*
-    ## Navigation
-*/
-// @import './navigation/_.scss';
+@import './layout/_pied-page.scss';
 
 /*
     ## Typography
@@ -41,15 +31,11 @@
 @import './typography/_typo.scss';
 
 /*
-    ## Pied-Page
-*/
-// @import './pied-page/_.scss';
-
-/*
     ## Elements
 */
 @import './elements/_entete.scss';
 @import './elements/_navigation.scss';
+@import './elements/_pied-page.scss';
 
 /*
     ## Main
