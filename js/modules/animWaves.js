@@ -6,20 +6,27 @@ class Waves {
         this.speed = speed;
         this.maxHeight = maxHeight;
         this.boxNum = 0;
-        
+        this.OriginalPattern = [4, 3, 2, 3, 0, 3, 1, 0, 4, 3, 4, 3];
+        this.currentPatternProgress = 0;
       }
 
       //Dis a la fonction makeWave quelle boite faire monter
+      //en suivant le "Original pattern" -> chaque chiffre dedans représente le numero de
+      //la boite.
+      //Pourrait être mieux si les boite était généré dans le js pour avoir controle
+      //sur le nombre de boite. Et le pattern pourrait être généré aléatoirement
+      //ou basé sur quelque chose aussi.
       prepareBoxForWave() {
         let boxes = this.getBoxes();
 
-        if (this.boxNum < boxes.length) {
-            this.makeWave(boxes[this.boxNum]);
-            this.boxNum++;
-        } else if (this.boxNum >= boxes.length) {
-            this.boxNum = 0;
-            this.makeWave(boxes[this.boxNum]);
-            this.boxNum++;
+
+        if (this.currentPatternProgress < this.OriginalPattern.length) {
+            this.makeWave(boxes[this.OriginalPattern[this.currentPatternProgress]]);
+            this.currentPatternProgress++;
+        } else if (this.currentPatternProgress >= this.OriginalPattern.length) {
+            this.currentPatternProgress = 0;
+            this.makeWave(boxes[this.OriginalPattern[this.currentPatternProgress]]);
+            this.currentPatternProgress++;
         }
       }
 

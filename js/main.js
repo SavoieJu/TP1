@@ -5,6 +5,5 @@ let sideScrollStart = new SideScroll(document.querySelector(".menu_container > h
 sideScrollStart.startMoving();
 
 let waves = new Waves(300, 30);
-
 waves.prepareBoxForWave();
  
