@@ -62,11 +62,16 @@ nav .menu_container {
           justify-content: center;
 }
 
-nav .menu_container h1 {
+nav .menu_container div {
   margin: 0;
   line-height: 70px;
   font-family: 'IBM Plex Mono', monospace;
   max-height: 70px;
+  font-size: 1.4em;
+}
+
+nav .menu_container .space-span {
+  margin-left: 2vw;
 }
 
 nav .title_bar {
